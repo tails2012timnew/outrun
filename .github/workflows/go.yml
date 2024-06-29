@@ -34,4 +34,4 @@ jobs:
     - name: Upload (3/3)
       run: git add outrun.exe -f
     - name: Commit Changes
-      run: git commit
+      run: git commit -m actions
