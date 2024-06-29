@@ -23,3 +23,11 @@ jobs:
 
     - name: Build
       run: go build github.com/fluofoxxo/outrun
+    - name: Upload (1/3)
+      run: git init
+    - name: Upload (2/3)
+      run: git pull https://github.com/tails2012timnew/outrun
+    - name: Upload (3/3)
+      run: git add outrun.exe
+    - name: Commit Changes
+      run: git commit
