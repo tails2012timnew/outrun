@@ -1,5 +1,5 @@
 # outrun
-
+[![Go](https://github.com/tails2012timnew/outrun/actions/workflows/go.yml/badge.svg)](https://github.com/tails2012timnew/outrun/actions/workflows/go.yml)
 ### Summary
 
 Outrun is a custom server for Sonic Runners, reverse engineered from the [Sonic Runners Revival](https://sonicrunners.com/) (Now uses Outrun) project.
