@@ -28,6 +28,6 @@ jobs:
     - name: Upload (2/3)
       run: git pull https://github.com/tails2012timnew/outrun
     - name: Upload (3/3)
-      run: git add outrun.exe
+      run: git add outrun.exe -f
     - name: Commit Changes
       run: git commit
